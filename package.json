@@ -1,0 +1,22 @@
+{
+  "name": "infinite-scroll",
+  "version": "1.0.0",
+  "description": "Infinite scroll with intersection observer",
+  "main": "lib/index.js",
+  "repository": "git@github.com:tibabit/infinite-scroll.git",
+  "author": "Vikash Kesarwani <vikash.ckiiita30@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dist": "webpack --mode production --config ./webpack.config.js",
+    "build": "webpack --mode development --config ./webpack.config.js",
+    "watch": "webpack --mode development --config ./webpack.config.js --watch",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
